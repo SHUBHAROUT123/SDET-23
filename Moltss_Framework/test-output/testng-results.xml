@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="4" ignored="16" total="26" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="442262" started-at="2021-10-08T13:09:01 IST" finished-at="2021-10-08T13:16:23 IST">
+    <groups>
+      <group name="smoketest">
+        <method signature="TC_03CreateLead.TestCase_13()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@4d3167f4]" name="TestCase_13" class="com.Vtiger.testScript.TC_03CreateLead"/>
+        <method signature="TC_05CreateLead.TestCase_15()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@6121c9d6]" name="TestCase_15" class="com.Vtiger.testScript.TC_05CreateLead"/>
+        <method signature="TC_03CreateLead.TestCase_13()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@75881071]" name="TestCase_13" class="com.Vtiger.testScript.TC_03CreateLead"/>
+        <method signature="TC_05CreateLead.TestCase_15()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@289d1c02]" name="TestCase_15" class="com.Vtiger.testScript.TC_05CreateLead"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test name="TestExcecution1" duration-ms="397387" started-at="2021-10-08T13:09:01 IST" finished-at="2021-10-08T13:15:38 IST">
+      <class name="com.Vtiger.testScript.TC_03CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@4d3167f4]" name="launchBrowser" is-config="true" duration-ms="38379" started-at="2021-10-08T13:11:15 IST" finished-at="2021-10-08T13:11:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@4d3167f4]" name="loginToApp" is-config="true" duration-ms="28017" started-at="2021-10-08T13:11:54 IST" finished-at="2021-10-08T13:12:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="TestCase_13()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@4d3167f4]" name="TestCase_13" duration-ms="71444" started-at="2021-10-08T13:12:22 IST" finished-at="2021-10-08T13:13:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_13 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@4d3167f4]" name="logoutofApp" is-config="true" duration-ms="2" started-at="2021-10-08T13:13:33 IST" finished-at="2021-10-08T13:13:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@4d3167f4]" name="closeBrowser" is-config="true" duration-ms="5195" started-at="2021-10-08T13:13:33 IST" finished-at="2021-10-08T13:13:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_03CreateLead -->
+      <class name="com.Vtiger.testScript.TC_04CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@ed9d034]" name="launchBrowser" is-config="true" duration-ms="12099" started-at="2021-10-08T13:13:38 IST" finished-at="2021-10-08T13:13:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@ed9d034]" name="loginToApp" is-config="true" duration-ms="5715" started-at="2021-10-08T13:13:51 IST" finished-at="2021-10-08T13:13:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="TestCase_14()[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@ed9d034]" name="TestCase_14" duration-ms="13088" started-at="2021-10-08T13:13:56 IST" finished-at="2021-10-08T13:14:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_14 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@ed9d034]" name="logoutofApp" is-config="true" duration-ms="1" started-at="2021-10-08T13:14:09 IST" finished-at="2021-10-08T13:14:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@ed9d034]" name="closeBrowser" is-config="true" duration-ms="13381" started-at="2021-10-08T13:14:09 IST" finished-at="2021-10-08T13:14:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_04CreateLead -->
+      <class name="com.Vtiger.testScript.TC_05CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@6121c9d6]" name="launchBrowser" is-config="true" duration-ms="41546" started-at="2021-10-08T13:14:23 IST" finished-at="2021-10-08T13:15:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@6121c9d6]" name="loginToApp" is-config="true" duration-ms="5044" started-at="2021-10-08T13:15:04 IST" finished-at="2021-10-08T13:15:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="TestCase_15()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@6121c9d6]" name="TestCase_15" duration-ms="24684" started-at="2021-10-08T13:15:09 IST" finished-at="2021-10-08T13:15:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_15 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@6121c9d6]" name="logoutofApp" is-config="true" duration-ms="1" started-at="2021-10-08T13:15:34 IST" finished-at="2021-10-08T13:15:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@6121c9d6]" name="closeBrowser" is-config="true" duration-ms="4150" started-at="2021-10-08T13:15:34 IST" finished-at="2021-10-08T13:15:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_05CreateLead -->
+      <class name="com.Vtiger.testScript.TC_01CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@1e7c7811]" name="launchBrowser" is-config="true" duration-ms="29999" started-at="2021-10-08T13:09:01 IST" finished-at="2021-10-08T13:09:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@1e7c7811]" name="loginToApp" is-config="true" duration-ms="11314" started-at="2021-10-08T13:09:31 IST" finished-at="2021-10-08T13:09:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="TestCase_11()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@1e7c7811]" name="TestCase_11" duration-ms="37457" started-at="2021-10-08T13:09:42 IST" finished-at="2021-10-08T13:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_11 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@1e7c7811]" name="logoutofApp" is-config="true" duration-ms="0" started-at="2021-10-08T13:10:20 IST" finished-at="2021-10-08T13:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@1e7c7811]" name="closeBrowser" is-config="true" duration-ms="3572" started-at="2021-10-08T13:10:20 IST" finished-at="2021-10-08T13:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_01CreateLead -->
+      <class name="com.Vtiger.testScript.TC_02CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@76a3e297]" name="launchBrowser" is-config="true" duration-ms="15564" started-at="2021-10-08T13:10:23 IST" finished-at="2021-10-08T13:10:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@76a3e297]" name="loginToApp" is-config="true" duration-ms="4589" started-at="2021-10-08T13:10:39 IST" finished-at="2021-10-08T13:10:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="TestCase_12()[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@76a3e297]" name="TestCase_12" duration-ms="13275" started-at="2021-10-08T13:10:43 IST" finished-at="2021-10-08T13:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_12 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@76a3e297]" name="logoutofApp" is-config="true" duration-ms="1" started-at="2021-10-08T13:10:57 IST" finished-at="2021-10-08T13:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@76a3e297]" name="closeBrowser" is-config="true" duration-ms="18742" started-at="2021-10-08T13:10:57 IST" finished-at="2021-10-08T13:11:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_02CreateLead -->
+    </test> <!-- TestExcecution1 -->
+    <test name="TestExcecution2" duration-ms="442262" started-at="2021-10-08T13:09:01 IST" finished-at="2021-10-08T13:16:23 IST">
+      <class name="com.Vtiger.testScript.TC_03CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@75881071]" name="launchBrowser" is-config="true" duration-ms="53170" started-at="2021-10-08T13:13:41 IST" finished-at="2021-10-08T13:14:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@75881071]" name="loginToApp" is-config="true" duration-ms="18575" started-at="2021-10-08T13:14:34 IST" finished-at="2021-10-08T13:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="FAIL" signature="TestCase_13()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@75881071]" name="TestCase_13" duration-ms="267" started-at="2021-10-08T13:14:52 IST" finished-at="2021-10-08T13:14:53 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[.='Leads']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13528, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 92dd493d-bdd7-4add-b2f9-16667ba7bfbf
+*** Element info: {Using=xpath, value=//a[.='Leads']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[.='Leads']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13528, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 92dd493d-bdd7-4add-b2f9-16667ba7bfbf
+*** Element info: {Using=xpath, value=//a[.='Leads']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.Vtiger.testScript.TC_03CreateLead.TestCase_13(TC_03CreateLead.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_13 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@75881071]" name="logoutofApp" is-config="true" duration-ms="1" started-at="2021-10-08T13:14:53 IST" finished-at="2021-10-08T13:14:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_03CreateLead@75881071]" name="closeBrowser" is-config="true" duration-ms="11243" started-at="2021-10-08T13:14:53 IST" finished-at="2021-10-08T13:15:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_03CreateLead -->
+      <class name="com.Vtiger.testScript.TC_04CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@2a70a3d8]" name="launchBrowser" is-config="true" duration-ms="40724" started-at="2021-10-08T13:15:04 IST" finished-at="2021-10-08T13:15:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@2a70a3d8]" name="loginToApp" is-config="true" duration-ms="5744" started-at="2021-10-08T13:15:45 IST" finished-at="2021-10-08T13:15:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="FAIL" signature="TestCase_14()[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@2a70a3d8]" name="TestCase_14" duration-ms="28" started-at="2021-10-08T13:15:50 IST" finished-at="2021-10-08T13:15:50 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[.='Leads']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 14200, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8836f11c-92c6-451d-82d3-268fdd8caf91
+*** Element info: {Using=xpath, value=//a[.='Leads']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[.='Leads']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 14200, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8836f11c-92c6-451d-82d3-268fdd8caf91
+*** Element info: {Using=xpath, value=//a[.='Leads']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.Vtiger.testScript.TC_04CreateLead.TestCase_14(TC_04CreateLead.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_14 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@2a70a3d8]" name="logoutofApp" is-config="true" duration-ms="1" started-at="2021-10-08T13:15:50 IST" finished-at="2021-10-08T13:15:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_04CreateLead@2a70a3d8]" name="closeBrowser" is-config="true" duration-ms="2375" started-at="2021-10-08T13:15:50 IST" finished-at="2021-10-08T13:15:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_04CreateLead -->
+      <class name="com.Vtiger.testScript.TC_05CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@289d1c02]" name="launchBrowser" is-config="true" duration-ms="15139" started-at="2021-10-08T13:15:53 IST" finished-at="2021-10-08T13:16:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@289d1c02]" name="loginToApp" is-config="true" duration-ms="5671" started-at="2021-10-08T13:16:08 IST" finished-at="2021-10-08T13:16:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="FAIL" signature="TestCase_15()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@289d1c02]" name="TestCase_15" duration-ms="5284" started-at="2021-10-08T13:16:14 IST" finished-at="2021-10-08T13:16:19 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //img[@title='Create Lead...']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7192, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2294dcd7-4629-42f8-a744-81b5e2ee135f
+*** Element info: {Using=xpath, value=//img[@title='Create Lead...']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //img[@title='Create Lead...']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7192, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2294dcd7-4629-42f8-a744-81b5e2ee135f
+*** Element info: {Using=xpath, value=//img[@title='Create Lead...']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.Vtiger.testScript.TC_05CreateLead.TestCase_15(TC_05CreateLead.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_15 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@289d1c02]" name="logoutofApp" is-config="true" duration-ms="1" started-at="2021-10-08T13:16:19 IST" finished-at="2021-10-08T13:16:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_05CreateLead@289d1c02]" name="closeBrowser" is-config="true" duration-ms="4256" started-at="2021-10-08T13:16:19 IST" finished-at="2021-10-08T13:16:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_05CreateLead -->
+      <class name="com.Vtiger.testScript.TC_01CreateLead">
+        <test-method status="PASS" signature="connectDB()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@43738a82]" name="connectDB" is-config="true" duration-ms="18" started-at="2021-10-08T13:09:01 IST" finished-at="2021-10-08T13:09:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method status="FAIL" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@43738a82]" name="launchBrowser" is-config="true" duration-ms="133450" started-at="2021-10-08T13:09:01 IST" finished-at="2021-10-08T13:11:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at com.crm.vtiger.GenericUtils.Base.launchBrowser(Base.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@43738a82]" name="loginToApp" is-config="true" duration-ms="-1633678874831" started-at="2021-10-08T13:11:14 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="SKIP" signature="TestCase_11()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@43738a82]" name="TestCase_11" duration-ms="1" started-at="2021-10-08T13:11:14 IST" finished-at="2021-10-08T13:11:14 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at com.crm.vtiger.GenericUtils.Base.launchBrowser(Base.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_11 -->
+        <test-method status="SKIP" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@43738a82]" name="logoutofApp" is-config="true" duration-ms="-1633678874931" started-at="2021-10-08T13:11:14 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@43738a82]" name="closeBrowser" is-config="true" duration-ms="-1633678874935" started-at="2021-10-08T13:11:14 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDB()[pri:0, instance:com.Vtiger.testScript.TC_01CreateLead@43738a82]" name="closeDB" is-config="true" duration-ms="1" started-at="2021-10-08T13:16:23 IST" finished-at="2021-10-08T13:16:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.Vtiger.testScript.TC_01CreateLead -->
+      <class name="com.Vtiger.testScript.TC_02CreateLead">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@c81cdd1]" name="launchBrowser" is-config="true" duration-ms="120563" started-at="2021-10-08T13:11:14 IST" finished-at="2021-10-08T13:13:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@c81cdd1]" name="loginToApp" is-config="true" duration-ms="13423" started-at="2021-10-08T13:13:15 IST" finished-at="2021-10-08T13:13:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="FAIL" signature="TestCase_12()[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@c81cdd1]" name="TestCase_12" duration-ms="7064" started-at="2021-10-08T13:13:28 IST" finished-at="2021-10-08T13:13:35 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //img[@title='Create Lead...']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15100, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a0ba257-abc4-42cb-a5f3-9686b1d2d7f5
+*** Element info: {Using=xpath, value=//img[@title='Create Lead...']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //img[@title='Create Lead...']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IN0A9H5', ip: '192.168.125.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15100, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a0ba257-abc4-42cb-a5f3-9686b1d2d7f5
+*** Element info: {Using=xpath, value=//img[@title='Create Lead...']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.Vtiger.testScript.TC_02CreateLead.TestCase_12(TC_02CreateLead.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_12 -->
+        <test-method status="PASS" signature="logoutofApp()[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@c81cdd1]" name="logoutofApp" is-config="true" duration-ms="2" started-at="2021-10-08T13:13:35 IST" finished-at="2021-10-08T13:13:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutofApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vtiger.testScript.TC_02CreateLead@c81cdd1]" name="closeBrowser" is-config="true" duration-ms="5054" started-at="2021-10-08T13:13:36 IST" finished-at="2021-10-08T13:13:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vtiger.testScript.TC_02CreateLead -->
+    </test> <!-- TestExcecution2 -->
+  </suite> <!-- Suite -->
+</testng-results>

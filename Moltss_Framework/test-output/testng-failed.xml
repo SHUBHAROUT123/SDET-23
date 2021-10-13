@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="TestExcecution2(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Vtiger.testScript.TC_05CreateLead">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginToApp"/>
+          <include name="logoutofApp"/>
+          <include name="closeDB"/>
+          <include name="TestCase_15"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Vtiger.testScript.TC_05CreateLead -->
+      <class name="com.Vtiger.testScript.TC_02CreateLead">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="TestCase_12"/>
+          <include name="loginToApp"/>
+          <include name="logoutofApp"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Vtiger.testScript.TC_02CreateLead -->
+      <class name="com.Vtiger.testScript.TC_04CreateLead">
+        <methods>
+          <include name="TestCase_14"/>
+          <include name="launchBrowser"/>
+          <include name="loginToApp"/>
+          <include name="logoutofApp"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Vtiger.testScript.TC_04CreateLead -->
+      <class name="com.Vtiger.testScript.TC_03CreateLead">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginToApp"/>
+          <include name="logoutofApp"/>
+          <include name="TestCase_13"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Vtiger.testScript.TC_03CreateLead -->
+      <class name="com.Vtiger.testScript.TC_01CreateLead">
+        <methods>
+          <include name="TestCase_11"/>
+          <include name="launchBrowser"/>
+          <include name="loginToApp"/>
+          <include name="logoutofApp"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Vtiger.testScript.TC_01CreateLead -->
+    </classes>
+  </test> <!-- TestExcecution2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
